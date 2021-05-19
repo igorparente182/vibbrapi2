@@ -42,7 +42,7 @@ namespace vibbraapi.Controllers
                         ProjectsDTO.Add(projectDTO);
                     }
 
-                    if (result != null) return Json(ProjectsDTO);
+                    if (result != null) { return Json(ProjectsDTO)};
 
                     return Json("Not Found");
                
